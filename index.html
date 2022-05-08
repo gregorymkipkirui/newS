@@ -53,9 +53,9 @@
 
 </head>
 
-<body contenteditable="false">
+<body contenteditable="true">
     <header class="header-global">
-    <nav id="navbar-main" aria-label="Primary navigation" class="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-light navbar-transparent headroom--not-bottom headroom--pinned headroom--top">
+    <nav id="navbar-main" aria-label="Primary navigation" class="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-light navbar-transparent headroom--not-bottom headroom--not-top headroom--unpinned">
         <div class="container position-relative">
             <a class="navbar-brand shadow-soft py-2 px-3 rounded border border-light mr-lg-4" href="./index.html">
                 <img class="navbar-brand-dark" src="./assets/img/brand/dark.svg" alt="Logo light">
@@ -76,23 +76,20 @@
                 </div>
                 <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link" data-toggle="dropdown">
+                        <a href="#" class="nav-link" data-toggle="dropdown" aria-expanded="false">
                             <span class="nav-link-inner-text">Pages</span>
                             <span class="fas fa-angle-down nav-link-arrow ml-2"></span>
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="./html/pages/about.html">About</a></li>
-                            <li><a class="dropdown-item" href="./html/pages/pricing.html">Pricing</a></li>
+                            
                             <li><a class="dropdown-item" href="./html/pages/contact.html">Contact</a></li>
-                            <li><a class="dropdown-item" href="./html/pages/sign-in.html">Sign in</a></li>
-                            <li><a class="dropdown-item" href="./html/pages/sign-up.html">Sign up</a></li>
+                            
+                            
                         </ul>
                     </li>
                     <li class="nav-item dropdown mega-dropdown">
-                        <a href="#" class="nav-link" data-toggle="dropdown">
-                            <span class="nav-link-inner-text">Components</span>
-                            <span class="fas fa-angle-down nav-link-arrow ml-2"></span>
-                        </a>
+                        
                         <div class="dropdown-menu">
                             <div class="row">
                                 <div class="col-lg-6 inside-bg d-none d-lg-block">
@@ -154,20 +151,14 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link" data-toggle="dropdown">
+                        <a href="#" class="nav-link" data-toggle="dropdown" aria-expanded="false">
                             <span class="nav-link-inner-text">Support</span>
                             <span class="fas fa-angle-down nav-link-arrow ml-2"></span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-lg">
                             <div class="col-auto px-0" data-dropdown-content="">
                                 <div class="list-group list-group-flush">
-                                    <a href="https://themesberg.com/docs/neumorphism-ui/getting-started/quick-start/" target="_blank" class="list-group-item list-group-item-action d-flex align-items-center p-0 py-3 px-lg-4">
-                                        <span class="icon icon-sm icon-secondary"><span class="fas fa-file-alt"></span></span>
-                                        <div class="ml-4">
-                                            <span class="text-dark d-block">Documentation<span class="badge badge-sm badge-secondary ml-2">v1.0</span></span>
-                                            <span class="small">Examples and guides</span>
-                                        </div>
-                                    </a>
+                                    
                                     <a href="https://github.com/themesberg/th-neumorphism-ui-pro/issues" target="_blank" class="list-group-item list-group-item-action d-flex align-items-center p-0 py-3 px-lg-4">
                                         <span class="icon icon-sm icon-secondary"><span class="fas fa-microphone-alt"></span></span>
                                         <div class="ml-4">
@@ -182,8 +173,8 @@
                 </ul>
             </div>
             <div class="d-flex align-items-center">
-                <a href="https://themesberg.com/product/ui-kits/neumorphism-ui-pro" target="_blank" class="btn btn-primary text-secondary mr-3"><i class="far fa-paper-plane mr-2"></i> Upgrade to PRO</a>
-                <a href="https://themesberg.com/docs/neumorphism-ui/getting-started/quick-start/" target="_blank" class="btn btn-primary d-none d-md-inline-block"><i class="fas fa-book"></i> Docs v1.0</a>
+                <a href="https://themesberg.com/product/ui-kits/neumorphism-ui-pro" target="_blank" class="btn btn-primary text-secondary mr-3"><i class="far fa-paper-plane mr-2"></i>&nbsp;Chat Assistant</a>
+                
                 
             </div>
         </div>
@@ -196,18 +187,15 @@
             <div class="container z-2">
                 <div class="row justify-content-center text-center pt-6">
                     <div class="col-lg-8 col-xl-8">
-                        <h1 class="display-2 mb-3">Safaricom New Trick</h1>
-                        <p class="lead px-md-6 mb-5">Download our app below and give it a try. It is nothing illegal. Just a trick to help increase your Fuliza limit faster.</p>
+                        <h3 class="display-2 mb-3">Safaricom New Fuliza Trick. No ads. No Charges.</h3>
+                        
                         <div class="d-flex flex-column flex-wrap flex-md-row justify-content-md-center mb-5">
-                            <a href="https://themesberg.com/product/ui-kits/neumorphism-ui" target="_blank" class="btn btn-primary mb-3 mb-lg-0 mr-3"><i class="fas fa-cloud-download-alt mr-2"></i> Download</a>
+                            <a href="https://themesberg.com/product/ui-kits/neumorphism-ui" target="_blank" class="btn btn-primary mb-3 mb-lg-0 mr-3"><i class="fas fa-cloud-download-alt mr-2"></i> Download app</a>
                             <div class="mt-2">
                                 <span></span>
                             </div>
                         </div>
-                        <a href="https://themesberg.com" target="_blank" class="d-flex align-items-center justify-content-center flex-column">
-                            <img src="./assets/img/themesberg.svg" height="25" class="mb-3" alt="Themesberg Logo">
-                            <span class="text-muted font-small">A Themesberg production</span>
-                        </a>
+                        
                     </div>
                 </div>
             </div>
@@ -221,8 +209,8 @@
                             <div class="icon icon-shape icon-lg bg-soft shadow-soft border border-light rounded-circle mb-3">
                                 <span class="fas fa-box-open"></span>
                             </div>
-                            <h2 class="h5 my-3">Over 200 components</h2>
-                            <p class="px-lg-4">Beatifully crafted and neumorphism inspired elements</p>
+                            <h2 class="h5 my-3">What is Fuliza?</h2>
+                            <p class="px-lg-4">Fuliza is an overdraft service provided by NCBA Bank via Mpesa. When you don't have enough money in your MPESA account, you can use this service to complete MPESA transactions such as sending money and paying bills.</p>
                         </div>
                         <!-- End of Icon box -->
                     </div>
@@ -232,8 +220,8 @@
                             <div class="icon icon-shape icon-lg bg-soft shadow-soft border border-light rounded-circle mb-3">
                                 <span class="fas fa-pager"></span>
                             </div>
-                            <h2 class="h5 my-3">10+ sections</h2>
-                            <p class="px-lg-4">Navigation bars, pricing cards, footers and many more sections to enhance page variety</p>
+                            <h2 class="h5 my-3">In Need of a Higher Fuliza Limit?</h2>
+                            <p class="px-lg-4">Every three months, Safaricom Fuliza limits are reviewed. Frequent use of the service may increase your limit, but only after three months. Some emergencies, however, may not be able to wait that long.</p>
                         </div>
                         <!-- End of Icon box -->
                     </div>
@@ -243,8 +231,8 @@
                             <div class="icon icon-shape icon-lg bg-soft shadow-soft border border-light rounded-circle mb-3">
                                 <span class="far fa-file-alt"></span>
                             </div>
-                            <h2 class="h5 my-3">5 example pages</h2>
-                            <p class="px-lg-4">We took the time to create a few example pages to show you how neumorphic pages can look like</p>
+                            <h2 class="h5 my-3">The Procedure</h2>
+                            <p class="px-lg-4">We discovered a method (a procedure) that resulted in a higher Fuliza Limit in a very short period of time. We coded the procedure into an app to keep the secret hidden for the time being. So, if you're interested, go ahead and give it a try.&nbsp;&nbsp;<span style="font-size: 1rem;">Download it from the link above.</span></p>
                         </div>
                         <!-- End of Icon box -->
                     </div>
@@ -598,6 +586,7 @@
 
 <!-- Neumorphism JS -->
 <script src="./assets/js/neumorphism.js"></script>
+
 
 
 </body></html>
