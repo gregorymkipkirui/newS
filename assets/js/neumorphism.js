@@ -27,7 +27,7 @@ $(document).ready(function () {
         xl: 1140
     };
 
-    var $navbarCollapse = $('.navbar-main .collapse');
+    var $navbarCollapsee = $('.navbar-main .collapse');
 
     // Collapse navigation
     $navbarCollapse.on('hide.bs.collapse', function () {
